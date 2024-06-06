@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+section ul {
+    list-style-type: disc;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f2f2f2; /* Cambiar el color de fondo */
+}
+
+/* Estilo para el botón de regreso al inicio */
+.footer .back-to-top-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; /* Añadir bordes redondeados */
+    transition: background-color 0.3s; /* Transición de color de fondo */
+}
+
+.footer .back-to-top-btn:hover {
+    background-color: #0056b3; /* Cambiar el color de fondo en el hover */
+}
